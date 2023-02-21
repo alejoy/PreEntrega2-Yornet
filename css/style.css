@@ -1,0 +1,432 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.headerIndex {
+  background-image: url("../img/Slide22.png");
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .sticky {
+
+} */
+
+#logo {
+  float: left;
+  margin: 40px 0 0 100px;
+  width: 196px;
+  height: 90px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 55px 40px 0 0;
+  padding: 0;
+  display: inline;
+  float: right;
+}
+
+nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textContainer{
+  float: left;
+  display: block;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+
+.text {
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  width: 35%;
+  line-height: 1.5;
+}
+
+.author {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  width: 35%;
+}
+
+/* main section */
+.main {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 4rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+}
+
+.mainContainer{
+  width: 70%;
+  margin: auto;
+  display: inline;
+}
+.textMain {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  width: 70%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/* article section */
+
+.articleContainer{
+  overflow: hidden;
+  margin: 60px 20px;
+}
+
+
+.article {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.imgArticle {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+/* newsletter section */
+
+.newsletterContainer {
+  background-color: #A7BCD1;
+  background-image: url("../img/Newsletter.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  height: 296px;
+}
+.newsletterH3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: #000;
+}
+
+.formContainer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.newsletterForm {
+  border-radius: 2px;
+  color: #fff;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  margin-bottom: 0;
+  display: inline;
+  padding: 13px;
+  margin-left: 1%;
+
+}
+::placeholder {
+  color: #fff;
+}
+
+input:focus { 
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+/* gallery section */
+
+.gallery {
+  text-align: center;
+  margin: 50px 10px;    
+}
+
+.galleryContainer {
+  width: 1200px;
+  margin: auto;
+
+}
+
+.galleryPhoto {
+  width: 336px;
+  height: 266px;
+  margin: 5px;
+  opacity: 0.7;
+  transition: .5s ease;
+}
+
+.galleryPhoto:hover {
+  opacity: 1;
+}
+
+/* comments section */
+
+.space {
+  margin-bottom: 20px
+}
+
+/* footer section */
+
+footer {
+  background-color: #282d32;
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer p {
+  float:left;
+  padding: 10px;
+  font-weight: bold;
+  color: #f0f9ff;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.fix {
+  bottom: 0;
+  opacity: 1;
+}
+
+footer ul {
+  float:right;
+  list-style:none;
+  margin: 10px 100px 0 0;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.social-icons li {
+  margin: 0 10px;
+  display: inline;
+}
+
+.social-icons a {
+  color: #f0f9ff;
+  transition: all 0.3s ease-in-out;
+  text-decoration:none;
+}
+
+.social-icons a:hover {
+  color: #A7BCD1;
+}
+
+/* Cursos */
+
+.headerCursos {
+  background-image: url("../img/banner-cursos.jpg");
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cursosContaniner {
+  margin-top: 50px;
+}
+
+.cursoRight {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}  
+.uno {
+  background-color: #A7BCD1;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: #000;
+  position: relative;
+  vertical-align: middle;
+}
+
+.dos {
+  position: relative;
+  vertical-align: middle;
+} 
+
+.box {
+  margin-top: 25px!important;
+}
+
+.infoCurso {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: #000;
+  padding: 10px;
+}
+
+.button {
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  margin-top: 7px;
+}
+
+/* Nosotros */
+
+.headerAbout {
+  background-image: url("../img/young-woman-having-face-massage-relaxing-in-spa-salon.jpg");
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContainer {
+  width: 1200px;
+  margin: auto;
+}
+
+#imgAbout {
+  width: 336px;
+  height: 266px;
+}
+
+.personContainer {
+  display: inline-block;
+  text-align: center;
+  margin: 50px 10px;
+  width: 336px;
+  height: 266px; 
+}
+
+.personName {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.9rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: #000;
+}
+
+.personText {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: #000;
+}
+
+/* Contacto */
+
+.bodyContact{
+  background-image: url("../img/contact-bg.jpg");
+}
+
+.headerContact {
+  height: 200px;
+}
+
+.callToAction {
+  text-align: center;
+  margin: 10px;
+  font-size: 2.8rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.frase {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.8rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #000; 
+}
+
+.formContainer{
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.textForm {
+  border-radius: 2px;
+  color: #fff;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  margin-bottom: 0;
+  display: inline;
+  padding: 13px;
+  margin-left: 1%;
+  width: 500px;
+  height: 200px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.formUno {
+ float:right;
+ width: 600px;
+}
+
+.formDos {
+  display: block;
+  text-align: center;
+  
+}
+
+.direccion{
+  text-align: left;
+}
+
+.buttonEnviar {
+  text-align: center;
+  font-size: 1.7rem;
+  background-color: #A7BCD1;
+  color: #ffffff;
+  border-color: #859ab0;
+  width: 100px;
+}
+
+/* Services */
+
