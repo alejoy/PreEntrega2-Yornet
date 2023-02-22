@@ -209,7 +209,7 @@ footer {
   margin-top: 50px;
 }
 
-footer p {
+/* footer p {
   float:left;
   padding: 10px;
   font-weight: bold;
@@ -217,7 +217,7 @@ footer p {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
 
-}
+} */
 
 .fix {
   bottom: 0;

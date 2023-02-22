@@ -5,29 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS MAIN-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="headerIndex">
-        <nav class="sticky">
-            <a href="index.html">
-                <img id="logo" src="./img/Logo-Web-Escuela-Maia-BW.png" alt="logo">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                <img id="logo" src="./img/Logo-Web-Escuela-Maia-BW.png" class="img-fluid" alt="logo">
             </a>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="./pages/cursos.html">Cursos</a></li>
-                    <li><a href="./services.html">Servicios</a></li>
-                    <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./pages/contact.html">Contacto</a></li>
-                </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-item active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-item" href="./pages/cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-item" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-item" href="./pages/contact.html">Contacto</a></li>
+                </ul> 
+                </div>                 
+            </div>
         </nav>
-        <div class="textContainer">
-            <p class="text">Lo más bello y maravilloso de esta vida no pude verse ni tocarse, debe sentirse con el corazón.</p>
-            <p class="author">Heller Keller</p>
+        <div class="textContainer container">
+            <div class="row">
+                <div class="col">
+                <p class="text">Lo más bello y maravilloso de esta vida no pude verse ni tocarse, debe sentirse con el corazón.</p>
+                <p class="author">Heller Keller</p>
+            </div>
+            </div>
         </div>
     </header>
     <main>
@@ -41,61 +55,109 @@
                     Los cursos están avalados y certificados por la Asociación Argentina de Masajistas con sede en la Ciudad de Buenos Aires. Con Personería Jurídica y reconocimiento del Nivel Educativo Privado Nacional. con Personería jurídica IGJN 00839. Integrante el Consejo Consultivo de la Sociedad Civil Cancillería de la Argentina e inscripta en la Enseñanza Privada a Nivel Nacional.</p>
             </article>
         </section>
-        <section class="articleContainer">
-            <article>
-                <div class="article">
-                    <div><img class="imgArticle" src="./img/Cursos-1.png" alt="Cursos"></div>
-                    <div><h2>Cursos</h2></div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p></div>
-                </div>
-                <div class="article">
-                    <div><img class="imgArticle" src="./img/Talleres.png" alt="Talleres"></div>
-                    <div><h2>Talleres</h2></div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p></div>
-                </div>
-                <div class="article">
-                    <div><img class="imgArticle" src="./img/Eventos.png" alt="Jornadas"></div>
-                    <div><h2>Jornadas</h2></div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p></div>
+        <section>
+            <article class="articleContainer">     
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <img class="imgArticle rounded" src="./img/Cursos-1.png" alt="Cursos">
+                            <h2>Cursos</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p>
+                        </div>
+                        <div class="col">
+                            <img class="imgArticle rounded" src="./img/Talleres.png" alt="Talleres">
+                            <h2>Jornadas</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p>
+                        </div>
+                        <div class="col">
+                            <img class="imgArticle rounded" src="./img/Eventos.png" alt="Jornadas">
+                            <h2>Jornadas</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus eur ridiculus mus.</p>
+                        </div>
+                    </div>
                 </div>
             </article>
-        </section>
+        </section>       
         <section class="newsletterContainer">
             <div class="newsletterH3">
                 <h3>Entérate de todas las novedades en nuestro Newsletter</h3>
             </div>
-            <div class="formContainer">
+            <div class="">
                 <form action="">
-                    <input class="newsletterForm" type="text" name="nombre" placeholder="Nombre" id="">
-                    <input class="newsletterForm" type="email" name="mail" placeholder="E-mail" id="">
-                    <input class="newsletterForm" type="button" value="Suscribirme">
+                    <div class="row  p-5">
+                        <div class="col-md-5 mb-3">
+                          <input type="text" class="newsletterForm form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="col-md-5 mb-3">
+                          <input type="email" class="newsletterForm form-control" placeholder="E-mail" aria-label="E-mail" id="inputEmail4">
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <input class="newsletterForm form-control" type="button" value="Suscribirme">
+                        </div>
+                      </div>
+                </div>
                 </form>
             </div>
         </section>
-        <section class="gallery">
-            <div class="galleryContainer">
+        <section class="container text-center">
+            <div class="row mb-3 mt-5">
+                <div class="col-lg-6 col-md-6 col-xl-12">
                 <img class="galleryPhoto" src="./img/massage-1030x687.jpg" alt="masaje">
                 <img class="galleryPhoto" src="./img/sauna_woman-468x705.jpg" alt="sauna">
                 <img class="galleryPhoto" src="./img/towels-1030x687.jpg" alt="toallas">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-12">
                 <img class="galleryPhoto" src="./img/lavatory-1030x686.jpg" alt="lavatory">
                 <img class="galleryPhoto" src="./img/woman-running-1030x687.jpg" alt="correr">
                 <img class="galleryPhoto" src="./img/banner-med4-1030x494.jpg" alt="spa">
+                </div>
             </div>
         </section>
         <section class="mainContainer space">
-            <div class="main">
+            <div class="main row">
                 <h3>Que dicen nuestros alumnos</h3>
             </div>
-            <p class="textMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum quo ullam veniam! Perspiciatis repellendus maxime accusantium, ipsum ab natus nulla consequatur tempora temporibus placeat velit pariatur iure aspernatur? Odit?</p>
+            <div id="carouselQueDicen" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="textMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum quo ullam veniam! Perspiciatis repellendus maxime accusantium, ipsum ab natus nulla consequatur tempora temporibus placeat velit pariatur iure aspernatur? Odit?</p>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <p class="textMain">Asperiores illum quo ullam veniam! Perspiciatis repellendus maxime accusantium, ipsum ab natus nulla consequatur tempora temporibus placeat velit pariatur iure aspernatur? Odit?</p>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <p class="textMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum quo ullam veniam! Perspiciatis repellendus maxime accusantium, ipsum ab natus nulla consequatur tempora temporibus placeat velit pariatur iure aspernatur? Odit?</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselQueDicen" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselQueDicen" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
     </main>
-    <footer class="footer">
-        <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
-          </ul>
-          <p>Todos los derechos reservados &copy; 2023</p>
+    <footer class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="col"><p class="">Todos los derechos reservados &copy; 2023</p></div>
+            <div class="col">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            
+        </div>
     </footer>
+    <!--Link BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
