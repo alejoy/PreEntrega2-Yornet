@@ -202,12 +202,16 @@ input:focus {
 
 /* footer section */
 
-footer {
+.contactfooter{
+  background-color: #f1f1f1;}
+  
+/* footer {
   background-color: #282d32;
   position: absolute;
   width: 100%;
   margin-top: 50px;
-}
+  bottom: 0;
+} */
 
 /* footer p {
   float:left;
@@ -396,15 +400,15 @@ footer ul {
   background-color: transparent;
   margin-bottom: 0;
   display: inline;
-  padding: 13px;
-  margin-left: 1%;
-  width: 500px;
-  height: 200px;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  /* padding: 13px; */
+  /* margin-left: 1%; */
+  /* width: 500px;
+  height: 200px; */
+  /* margin-top: 1%;
+  margin-bottom: 1%; */
 }
 
-.formUno {
+/* .formUno {
  float:right;
  width: 600px;
 }
@@ -417,7 +421,7 @@ footer ul {
 
 .direccion{
   text-align: left;
-}
+} */
 
 .buttonEnviar {
   text-align: center;
