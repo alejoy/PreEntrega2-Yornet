@@ -156,7 +156,7 @@ nav a {
   margin-bottom: 0;
   display: inline;
   padding: 13px;
-  margin-left: 1%;
+  /* margin-left: 1%; */
 
 }
 ::placeholder {
@@ -201,10 +201,19 @@ input:focus {
 }
 
 /* footer section */
-
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
 .contactfooter{
-  background-color: #f1f1f1;}
-  
+  background-color: #f1f1f1;
+  /* position: absolute;
+  width: 100%;
+  bottom: 0; */
+}
+.content-wrap {
+  padding-bottom: 100px    /* Footer height */
+}
 /* footer {
   background-color: #282d32;
   position: absolute;
@@ -400,8 +409,8 @@ footer ul {
   background-color: transparent;
   margin-bottom: 0;
   display: inline;
-  /* padding: 13px; */
-  /* margin-left: 1%; */
+  padding: 13px;
+
   /* width: 500px;
   height: 200px; */
   /* margin-top: 1%;
